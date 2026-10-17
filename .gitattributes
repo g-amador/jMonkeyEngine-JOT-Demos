@@ -1,0 +1,9 @@
+# Force GitHub Linguist to count Java files
+*.java linguist-detectable=true
+
+# Optional: classify .cs files as C# (usually automatic)
+*.java linguist-language=C#
+
+# Prevent build artifacts from being counted
+bin/* linguist-generated=true
+obj/* linguist-generated=true
