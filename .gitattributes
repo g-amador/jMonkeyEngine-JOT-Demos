@@ -2,7 +2,7 @@
 *.java linguist-detectable=true
 
 # Optional: classify .cs files as C# (usually automatic)
-*.java linguist-language=C#
+*.java linguist-language=java
 
 # Prevent build artifacts from being counted
 bin/* linguist-generated=true
